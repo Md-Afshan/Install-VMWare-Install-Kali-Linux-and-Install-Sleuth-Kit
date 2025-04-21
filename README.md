@@ -18,7 +18,7 @@ Open the terminal in Kali Linux and run the command sudo apt install sleuthkit t
  2. Run the installer and follow the on-screen instructions.
  3. Once installed, launch VirtualBox to verify the installation.
 
-![output](./img1.png)
+![alt text](image1.png)
 
 
 ### Step 2: Install Kali Linux on VirtualBox
@@ -28,7 +28,8 @@ Open the terminal in Kali Linux and run the command sudo apt install sleuthkit t
  4. Select Graphical Install, follow the prompts to set language, location, username, and password.
  5. Choose Partitioning Method (Guided - Use Entire Disk) and wait for installation to complete.
 
-![output](./img2.jpeg)
+![alt text](image2.jpeg)
+
 
 ### Step 3: Install Sleuth Kit (CLI-based Forensic Tools)
  1. Download the Windows ZIP package from the official website.
@@ -39,20 +40,23 @@ Open the terminal in Kali Linux and run the command sudo apt install sleuthkit t
     * Add the Sleuth Kit bin folder path and save changes.
  4. Verify installation by running:
   ```
- fls -V
+  fls -V
   ```
-![output](./img3.jpeg)
+  
+![alt text](image3.jpeg)
 
 
 ### OUTPUT:
 ### Virtual Box:
-![output](./img4.jpeg)
+
+![alt text](image4.png)
 
 ### Virtual Machine (Kali Linux):
-![output](./img5.jpeg)
+![alt text](image5.png)
 
 ### Sleuth Kit:
-![output](./img6.jpeg)
+
+![alt text](image6.png)
 
 ### RESULT:
 The setup and installation of VMware, Kali Linux, and Sleuth Kit was completed successfully.
